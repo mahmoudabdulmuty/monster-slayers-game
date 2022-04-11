@@ -1,3 +1,3 @@
 # MonsterSlayer
 
-A simple Monster Slayer Game with VueJS & Foundation CSS (Without Vue Components)
+A simple Monster Slayer Game with VueJS (Without Vue Components)
