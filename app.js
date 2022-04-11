@@ -21,6 +21,19 @@ const app = Vue.createApp({
       this.playerHealth -= attackValue;
     },
   },
+
+  computed: {
+    calculatePlayerWidth() {
+      return {
+        width: `${this.playerHealth}%`,
+      };
+    },
+    calculateMonsterWidth() {
+      return {
+        width: `${this.monsterHealth}%`,
+      };
+    },
+  },
 });
 
 app.mount('#game');
